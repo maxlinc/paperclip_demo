@@ -23,3 +23,7 @@ group :test do
   gem 'capybara'
   gem 'shoulda-matchers'
 end
+
+group :rackspace do
+  gem 'fog'
+end
